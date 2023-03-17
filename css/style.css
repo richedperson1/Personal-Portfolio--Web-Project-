@@ -14,13 +14,15 @@
     font-family: 'Lato', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
+    scroll-behavior: smooth;
+    outline: none;
 }
 
 
 /* making root */
 
 :root {
-    --background-color: #20232f;
+    --background-color: #1f242d;
     --hover-colors: #35cedc;
     --text-origin-color: #fefefe
 }
@@ -31,7 +33,7 @@
 .container {
     max-width: 1320px;
     margin-inline: auto;
-    padding-inline: 10px;
+    padding-inline: 15px;
 }
 
 .flex {
@@ -71,4 +73,13 @@ div.logo {
 .nav-bar-items {
     display: inline-flex;
     gap: 20px;
+}
+
+
+/* Hover links */
+
+.nav-bar-items a:hover {
+    transform-origin: left;
+    transition: 0.5s ease-in-out;
+    color: var(--hover-colors);
 }
