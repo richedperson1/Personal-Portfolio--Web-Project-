@@ -1,0 +1,74 @@
+/* Font importing */
+
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@500&family=Lato:ital,wght@0,400;1,700&family=Roboto:wght@500&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+
+/* Universal parameter change */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* making root */
+
+:root {
+    --background-color: #20232f;
+    --hover-colors: #35cedc;
+    --text-origin-color: #fefefe
+}
+
+
+/* Utilities function */
+
+.container {
+    max-width: 1320px;
+    margin-inline: auto;
+    padding-inline: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+
+/* Default parameter */
+
+body {
+    background-color: var(--background-color);
+}
+
+a {
+    color: var(--text-origin-color);
+}
+
+
+/* Header section */
+
+div.logo {
+    color: var(--text-origin-color);
+    font-size: xxx-large;
+    font-family: 'Rubik Iso';
+    /* font-family: 'Climate Crisis'; */
+}
+
+.header-nav-bar {
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Header nav-bar section */
+
+.nav-bar-items {
+    display: inline-flex;
+    gap: 20px;
+}
