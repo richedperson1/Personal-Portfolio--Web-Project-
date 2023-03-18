@@ -22,8 +22,8 @@
 /* making root */
 
 :root {
-    --background-color: #1f242d;
-    --hover-colors: #35cedc;
+    --background-color: #1f232e;
+    --hover-colors: #0ef;
     --text-origin-color: #fefefe
 }
 
@@ -43,12 +43,29 @@
 
 /* Default parameter */
 
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
 body {
     background-color: var(--background-color);
 }
 
 a {
     color: var(--text-origin-color);
+}
+
+h1 {
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 300%;
+}
+
+h3 {
+    font-size: 250%;
 }
 
 
@@ -58,7 +75,6 @@ div.logo {
     color: var(--text-origin-color);
     font-size: xxx-large;
     font-family: 'Rubik Iso';
-    /* font-family: 'Climate Crisis'; */
 }
 
 .header-nav-bar {
@@ -73,6 +89,43 @@ div.logo {
 .nav-bar-items {
     display: inline-flex;
     gap: 20px;
+}
+
+.nav-bar-items a {
+    font-size: 1.7rem;
+}
+
+.active {
+    color: var(--hover-colors);
+}
+
+#Menu-card {
+    display: None;
+}
+
+
+/* Heading Section */
+
+.head-img-intro {
+    margin-top: 3%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro-content {
+    width: 30%;
+    color: var(--text-origin-color);
+}
+
+
+/* Heading image section */
+
+.main-img {
+    width: 40%;
+}
+
+.main-img img {
+    width: 100%;
 }
 
 
