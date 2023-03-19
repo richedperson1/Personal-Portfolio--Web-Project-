@@ -145,8 +145,35 @@ p.intro-main {
     width: 40%;
 }
 
+
+/* animation-name: firstanimation, movingBox, changingPosition;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+/* animation-timeline: alternate; 
+
+animation-timing-function: ease-in;
+animation-direction: alternate;
+*/
+
 .main-img img {
     width: 100%;
+    animation-name: moving-up-down;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+
+
+/* Heading image animation */
+
+@keyframes moving-up-down {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
 }
 
 
