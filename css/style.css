@@ -150,6 +150,29 @@ p.intro-main {
 }
 
 
+/* Social media Icons */
+
+.social-media {
+    margin-top: 3%;
+    display: inline-flex;
+    gap: 20px;
+    align-content: end;
+}
+
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 4rem;
+    font-size: 2rem;
+    background: transparent;
+    border-radius: 50%;
+    border: 0.2rem solid var(--hover-colors);
+    color: var(--hover-colors);
+}
+
+
 /* Hover links */
 
 .nav-bar-items a:hover {
