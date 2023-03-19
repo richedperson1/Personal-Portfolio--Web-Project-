@@ -106,15 +106,36 @@ div.logo {
 
 /* Heading Section */
 
+h2.intro-name {
+    font-size: 4rem;
+    color: rgb(238, 238, 98);
+    font-weight: 900;
+}
+
+.intro-content h3 {
+    font-weight: 900;
+}
+
 .head-img-intro {
     margin-top: 3%;
     align-items: center;
     justify-content: space-between;
 }
 
+span.profession {
+    color: rgb(231, 122, 122);
+}
+
 .intro-content {
-    width: 30%;
+    width: 34%;
     color: var(--text-origin-color);
+    line-height: 1.5;
+    text-align: left;
+}
+
+p.intro-main {
+    font-size: 1.6rem;
+    margin-top: 9%;
 }
 
 

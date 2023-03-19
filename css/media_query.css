@@ -1,0 +1,17 @@
+/* Only specific to media query */
+
+@media screen and (900px < width <=1320px) {
+    .container {
+        padding-inline: 30px;
+        /* background-color: red; */
+    }
+}
+
+@media screen and (700px < width <=900px) {
+    .container {
+        padding-inline: 20px;
+    }
+    .intro-content {
+        width: 44%;
+    }
+}
