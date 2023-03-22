@@ -117,7 +117,7 @@ h2.intro-name {
 }
 
 .head-img-intro {
-    margin-top: 3%;
+    margin-top: max(3%, 32px);
     align-items: center;
     justify-content: space-between;
 }
@@ -162,6 +162,7 @@ animation-direction: alternate;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     animation-direction: alternate;
+    box-shadow: -84px 87px 27px -71px rgba(24, 27, 36, 255), 80px 87px 28px -71px rgba(24, 27, 36, 255);
 }
 
 
@@ -180,7 +181,7 @@ animation-direction: alternate;
 /* Social media Icons */
 
 .social-media {
-    margin-top: 3%;
+    margin-top: max(3%, 40px);
     display: inline-flex;
     gap: 20px;
     align-content: end;
