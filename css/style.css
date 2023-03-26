@@ -28,6 +28,7 @@
     --secondary-bg-color: #323946;
     --main-text-color: #fefffe;
     --main-text-second-color: #caceca;
+    --profession-color: rgb(231, 122, 122);
 }
 
 
@@ -126,7 +127,7 @@ h2.intro-name {
 }
 
 span.profession {
-    color: rgb(231, 122, 122);
+    color: var(--profession-color);
 }
 
 .intro-content {
@@ -204,7 +205,7 @@ animation-direction: alternate;
     transition: 0.5s ease;
 }
 
-.resume-links {
+.btn-cls {
     /* border: 2px solid var(--main-text-color); */
     text-align: center;
     width: 40%;
@@ -221,6 +222,66 @@ animation-direction: alternate;
     color: var(--secondary-bg-color);
     font-weight: 900;
     font-size: 2rem;
+}
+
+
+/* About Section */
+
+.about-section {
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-image {
+    width: 50%;
+}
+
+.about-image img {
+    width: 100%;
+}
+
+
+/* Content info */
+
+.about-content {
+    width: 45%;
+}
+
+.about-content .heading {
+    color: var(--main-text-color);
+}
+
+h2.profession {
+    margin: max(10px, 2%) 0;
+    color: var(--profession-color);
+    font-size: 3.5rem;
+}
+
+.about-content h3 {
+    font-size: 3rem;
+}
+
+.about-content p {
+    font-size: 1.3rem;
+    color: var(--main-text-color);
+}
+
+span.Me {
+    color: var(--hover-colors);
+}
+
+.about-read-more {
+    word-spacing: 1rem;
+    width: 30%;
+    margin: max(30px, 3%) 0;
+}
+
+.read-more {
+    font-size: 2rem;
+    color: var(--background-color);
+    word-spacing: normal;
+    font-weight: 900;
 }
 
 
@@ -244,6 +305,6 @@ animation-direction: alternate;
 
 /* CV hover */
 
-.resume-links:hover {
+.btn-cls:hover {
     box-shadow: none;
 }
