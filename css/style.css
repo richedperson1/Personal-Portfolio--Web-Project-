@@ -24,7 +24,10 @@
 :root {
     --background-color: #1f232e;
     --hover-colors: #0ef;
-    --text-origin-color: #fefefe
+    --text-origin-color: #fefefe;
+    --secondary-bg-color: #323946;
+    --main-text-color: #fefffe;
+    --main-text-second-color: #caceca;
 }
 
 
@@ -198,6 +201,7 @@ animation-direction: alternate;
     border-radius: 50%;
     border: 0.2rem solid var(--hover-colors);
     color: var(--hover-colors);
+    transition: 0.5s ease;
 }
 
 
@@ -207,4 +211,13 @@ animation-direction: alternate;
     transform-origin: left;
     transition: 0.5s ease-in-out;
     color: var(--hover-colors);
+}
+
+
+/* social media hover icons */
+
+.social-media a:hover {
+    background-color: var(--hover-colors);
+    color: #fefefe;
+    box-shadow: 0 0 0.5rem var(--hover-colors);
 }
