@@ -184,7 +184,7 @@ animation-direction: alternate;
 /* Social media Icons */
 
 .social-media {
-    margin-top: max(3%, 40px);
+    margin: max(3%, 40px) 0;
     display: inline-flex;
     gap: 20px;
     align-content: end;
@@ -204,6 +204,25 @@ animation-direction: alternate;
     transition: 0.5s ease;
 }
 
+.resume-links {
+    /* border: 2px solid var(--main-text-color); */
+    text-align: center;
+    width: 40%;
+    padding: max(6px, 1%);
+    border-radius: 20px;
+    word-spacing: 1.2rem;
+    background-color: var(--hover-colors);
+    box-shadow: 0 0 1rem var(--hover-colors);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.resume-links a {
+    color: var(--secondary-bg-color);
+    font-weight: 900;
+    font-size: 2rem;
+}
+
 
 /* Hover links */
 
@@ -220,4 +239,11 @@ animation-direction: alternate;
     background-color: var(--hover-colors);
     color: #fefefe;
     box-shadow: 0 0 0.5rem var(--hover-colors);
+}
+
+
+/* CV hover */
+
+.resume-links:hover {
+    box-shadow: none;
 }
