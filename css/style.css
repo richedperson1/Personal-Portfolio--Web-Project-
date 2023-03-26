@@ -285,6 +285,29 @@ span.Me {
 }
 
 
+/* service section */
+
+.heading {
+    text-align: center;
+}
+
+.service {
+    height: 100vh;
+    margin-top: max(50px, 5%);
+}
+
+.service-offfer {
+    gap: 20px;
+    margin-top: max(50px, 2%);
+}
+
+.boxes-service {
+    border: 1px solid black;
+    text-align: center;
+    padding-inline: 20px;
+}
+
+
 /* Hover links */
 
 .nav-bar-items a:hover {
