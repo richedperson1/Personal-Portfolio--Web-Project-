@@ -48,6 +48,10 @@
     flex-direction: column;
 }
 
+.height-100vh {
+    height: 100vh;
+}
+
 /* Default parameter */
 
 html {
@@ -295,6 +299,7 @@ span.Me {
 .heading {
     text-align: center;
     font-size: 3rem;
+    color: var(--main-text-color);
 }
 
 .heading h2 {
@@ -351,6 +356,24 @@ span.Me {
     border: none;
     font-size: 2rem;
     font-weight: 800;
+}
+
+/* Portfolio section */
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: center;
+}
+
+.box-project {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: var(--main-text-color);
+    border: 3px solid var(--background-color);
+    margin: 2% 0;
+    width: 100% !important;
 }
 
 /* Hover links */
