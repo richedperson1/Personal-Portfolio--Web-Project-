@@ -5,13 +5,55 @@
         padding-inline: 30px;
         /* background-color: red; */
     }
+
+    .btn-cls {
+        word-spacing: 0.2rem;
+    }
+
+    .resume-links a {
+        font-size: 1.6rem;
+    }
 }
 
 @media screen and (700px < width <=900px) {
     .container {
         padding-inline: 20px;
     }
+
     .intro-content {
         width: 44%;
+    }
+
+    .btn-cls {
+        word-spacing: 0.2rem;
+    }
+
+    .resume-links a {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (width <700px) {
+    .head-img-intro {
+        flex-direction: column !important;
+        text-align: center;
+        gap: 50px;
+        /* justify-content: center !important;
+        align-items: center !important; */
+    }
+
+    .intro-content {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h3 {
+        font-size: 210%;
+    }
+
+    h2.intro-name {
+        font-size: 3rem;
     }
 }
