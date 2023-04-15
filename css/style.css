@@ -73,7 +73,7 @@ h1 {
 }
 
 h2 {
-    font-size: 300%;
+    font-size: 200%;
 }
 
 h3 {
@@ -310,6 +310,7 @@ span.Me {
 .service {
     height: 100vh;
     margin-top: max(50px, 5%);
+    background-color: var(--secondary-bg-color);
 }
 
 .service-offfer {
@@ -320,9 +321,9 @@ span.Me {
 }
 
 .boxes-service {
-    border: 3px solid rgb(34, 33, 33);
+    border: 3px solid var(--main-text-color);
     text-align: center;
-    background-color: var(--secondary-bg-color);
+    background-color: var(--background-color);
     color: var(--main-text-color);
     border-radius: 20px;
     display: flex;
@@ -459,4 +460,5 @@ div.info-layer p {
 .box-project:hover div.info-layer {
     cursor: pointer;
     transform: translateY(0%);
+    color: var(--background-color);
 }
