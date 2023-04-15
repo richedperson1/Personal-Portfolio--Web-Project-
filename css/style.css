@@ -45,6 +45,7 @@
 }
 
 .flex-column {
+    display: flex;
     flex-direction: column;
 }
 
@@ -298,7 +299,7 @@ span.Me {
 
 .heading {
     text-align: center;
-    font-size: 3rem;
+    font-size: 4.5rem;
     color: var(--main-text-color);
 }
 
@@ -369,11 +370,54 @@ span.Me {
 .box-project {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    /* padding: 20px; */
     color: var(--main-text-color);
     border: 3px solid var(--background-color);
     margin: 2% 0;
     width: 100% !important;
+    position: relative;
+    box-shadow: 0 0 5rem var(--background-color);
+    overflow: hidden;
+}
+
+.box-project img {
+    width: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+
+
+
+}
+
+div.info-layer h3 {
+    text-align: center;
+}
+
+div.info-layer {
+    height: 100%;
+    width: 100%;
+
+    position: absolute;
+    bottom: 0;
+    gap: 10px;
+    /* left: 0; */
+    background: linear-gradient(rgba(0, 0, 0, 0.1), var(--hover-colors));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 2rem;
+    transform: translateY(100%);
+    transition: 0.5s;
+    padding: 0 4rem;
+}
+
+div.info-layer h3 {
+    font-size: 3.5rem;
+}
+
+div.info-layer p {
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 /* Hover links */
@@ -407,4 +451,12 @@ span.Me {
     transform: scale(1.05);
     border: 3px solid var(--hover-colors);
     /* box-sizing: border-box; */
+}
+
+
+/* Portfolio Hover */
+
+.box-project:hover div.info-layer {
+    cursor: pointer;
+    transform: translateY(0%);
 }
