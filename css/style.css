@@ -421,6 +421,14 @@ div.info-layer p {
     text-align: center;
 }
 
+.info-layer2 {
+    color: var(--main-text-color) !important;
+}
+
+.info-layer1 {
+    color: #fefef0 !important;
+}
+
 /* Hover links */
 
 .nav-bar-items a:hover {
