@@ -15,7 +15,41 @@
     }
 }
 
+@media screen and (width <900px) {
+
+    /* Service section */
+    .service {
+        height: auto !important;
+    }
+
+    .service-offfer {
+
+        flex-wrap: wrap;
+        padding-bottom: 50px;
+    }
+
+    .boxes-service {
+        width: 290px;
+    }
+
+    .service-btn {
+        width: 90%;
+    }
+
+    .about-section {
+        padding-top: min(25px, 5%);
+        height: auto;
+    }
+}
+
 @media screen and (700px < width <=900px) {
+    .service {
+
+        padding: max(50px, 5%) 0px;
+        /* background-color: red; */
+
+    }
+
     .container {
         padding-inline: 20px;
     }
@@ -44,9 +78,14 @@
 
     .intro-content {
         width: 85%;
+        display: block;
+        /* flex-direction: column; */
+        /* align-items: center; */
+    }
+
+    .social-media {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        justify-content: center;
     }
 
     h3 {
@@ -55,5 +94,62 @@
 
     h2.intro-name {
         font-size: 3rem;
+    }
+
+    .resume-links {
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn-cls {
+        /* transform: scaleX(0.8); */
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-bar-items {
+        display: none;
+    }
+
+    #Menu-card {
+        display: inline;
+        font-size: large;
+
+    }
+
+    .main-img {
+        width: 60%;
+    }
+
+    .header-nav-bar {
+        justify-content: center;
+    }
+
+    /* service section */
+    .boxes-service {
+        width: 240px;
+    }
+
+    /* About section */
+    .about-section {
+        flex-direction: column-reverse;
+    }
+
+    .about-content {
+        width: 87%;
+    }
+
+    .about-image {
+        width: 64%;
+    }
+
+
+}
+
+@media screen and (width <500px) {
+
+    /* service section */
+    .boxes-service {
+        width: 300px !important;
     }
 }

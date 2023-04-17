@@ -225,12 +225,15 @@ animation-direction: alternate;
     box-shadow: 0 0 1rem var(--hover-colors);
     transition: 0.5s ease-in-out;
     cursor: pointer;
+    z-index: -5;
 }
 
 .resume-links a {
+    box-sizing: content-box;
     color: var(--secondary-bg-color);
     font-weight: 900;
     font-size: 2rem;
+    padding-inline: 30px;
 }
 
 
