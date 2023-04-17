@@ -40,6 +40,10 @@
         padding-top: min(25px, 5%);
         height: auto;
     }
+
+    h2 {
+        font-size: 100%;
+    }
 }
 
 @media screen and (700px < width <=900px) {
