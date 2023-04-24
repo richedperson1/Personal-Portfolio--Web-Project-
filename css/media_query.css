@@ -1,9 +1,15 @@
 /* Only specific to media query */
+.heading {
+    margin: 5rem;
+}
 
 @media screen and (900px < width <=1320px) {
     .container {
         padding-inline: 30px;
         /* background-color: red; */
+
+        padding-bottom: 5rem;
+
     }
 
     .btn-cls {
@@ -13,11 +19,23 @@
     .resume-links a {
         font-size: 1.6rem;
     }
+
+    div.info-layer p {
+        font-size: 10px !important;
+    }
+
+    div.info-layer h3 {
+        font-size: 1.5rem;
+    }
 }
 
 @media screen and (width <900px) {
 
     /* Service section */
+    .container {
+        padding-bottom: 5rem;
+    }
+
     .service {
         height: auto !important;
     }
@@ -43,6 +61,14 @@
 
     h2 {
         font-size: 100%;
+    }
+
+    div.info-layer p {
+        font-size: 20%;
+    }
+
+    div.info-layer h3 {
+        font-size: 1.5rem;
     }
 }
 
