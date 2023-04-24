@@ -432,6 +432,48 @@ div.info-layer p {
     color: #fefef0 !important;
 }
 
+/* Contact us */
+
+.contact-us {
+    background-color: var(--secondary-bg-color);
+}
+
+.contact-us-container {
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.box-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    width: 200px;
+    color: var(--main-text-color);
+    margin: 5rem 0;
+}
+
+.contact-us-heading {
+    font-size: 2rem;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.social-media-contact {
+    display: flex;
+    text-align: center;
+    gap: 2px;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+#emailInput {
+    text-align: center;
+}
+
 /* Hover links */
 
 .nav-bar-items a:hover {
