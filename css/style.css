@@ -454,12 +454,15 @@ div.info-layer p {
 }
 
 .contact-us-heading {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
-li {
+li,
+.intro-contact {
     text-decoration: none;
     list-style: none;
+    font-size: 1.4rem;
+    margin: 5px 0;
 }
 
 .social-media-contact {

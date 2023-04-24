@@ -70,6 +70,18 @@
     div.info-layer h3 {
         font-size: 1.5rem;
     }
+
+    .contact-us-heading {
+        font-size: 2rem;
+    }
+
+    li,
+    .intro-contact {
+        text-decoration: none;
+        list-style: none;
+        font-size: 1.1rem;
+        margin: 5px 0;
+    }
 }
 
 @media screen and (700px < width <=900px) {
