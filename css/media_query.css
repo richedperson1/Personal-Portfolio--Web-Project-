@@ -31,6 +31,14 @@
 
 @media screen and (width <900px) {
 
+    .resume-links a {
+        font-size: 1.3rem;
+    }
+
+    .about-read-more {
+        width: 50%;
+    }
+
     /* Service section */
     .container {
         padding-bottom: 5rem;
@@ -189,6 +197,10 @@
 }
 
 @media screen and (width <500px) {
+
+    .about-read-more {
+        width: 50%;
+    }
 
     /* service section */
     .boxes-service {
