@@ -194,4 +194,13 @@
     .boxes-service {
         width: 300px !important;
     }
+
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contact-us {
+        display: none;
+    }
 }
