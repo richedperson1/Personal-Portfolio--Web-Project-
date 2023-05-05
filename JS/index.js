@@ -8,9 +8,10 @@ portfolio_btn.addEventListener("click", () => {
 });
 
 
-// function scroll_down_to_id() {
-//     portfolio_section = document.querySelector("#portfolio-section-id");
-//     console.log("clicked", portfolio_section);
 
-//     portfolio_section.scrollIntoView({ behavior: 'smooth' });
-// }
+let allAnchorTag = document.querySelectorAll("a")
+
+allAnchorTag.forEach((val) => {
+
+    console.log(val.classList.add("achor_underline"));
+})

@@ -14,6 +14,7 @@
 
     .btn-cls {
         word-spacing: 0.2rem;
+        z-index: 2;
     }
 
     .resume-links a {
@@ -30,6 +31,10 @@
 }
 
 @media screen and (width <900px) {
+
+    .btn-cls {
+        z-index: 2;
+    }
 
     .resume-links a {
         font-size: 1.3rem;
@@ -110,6 +115,7 @@
 
     .btn-cls {
         word-spacing: 0.2rem;
+        z-index: 1;
     }
 
     .resume-links a {
