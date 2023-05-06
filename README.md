@@ -10,6 +10,8 @@ Powerful web design isn't about how much you can fit on a page, it's about how e
 <hr>
 <br>
 
+- [live link](https://master--glittering-nougat-e1d549.netlify.app/);
+
 ## 🛠 Skills
 HTML, CSS, JS
 
